@@ -1,5 +1,5 @@
 Dear {C_NAME},
-Your item has been successfully listed on {SITENAME}. The item will display instantly in search results.
+Your item has been successfully listed on {SITENAME} and will appear to other users after it has been approved.
 
 Here are the listing details:
 

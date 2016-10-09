@@ -1,5 +1,6 @@
 Dear {C_NAME},
-Your item has been successfully listed on {SITENAME}. The item will display instantly in search results.
+Your item has been successfully listed on {SITENAME}.
+To complete the listing and have your item appear to other users please pay the auction listing fee: {PAY_LINK}
 
 Here are the listing details:
 

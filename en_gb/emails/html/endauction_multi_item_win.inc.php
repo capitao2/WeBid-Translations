@@ -1,6 +1,6 @@
 <table border="0" width="100%">
 	<tr>
-		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, you won the item!</div></td>
+		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, you won {A_QUANTITY} items!</div></td>
 	</tr>
 	<tr>
 		<td colspan="3" style="font-size: 12px;">Hello <b>{W_NAME}</b>,</td>
@@ -19,11 +19,14 @@
 				<td width="18%" style="font-size: 12px;">Your bid:</td>
 				<td align="left" style="font-size: 12px;">{A_CURRENTBID}</td>
 			</tr>
+				<tr>
+				<td width="18%" style="font-size: 12px;">Quantity:</td>
+				<td align="left" style="font-size: 12px;">{A_QUANTITY}</td>
+			</tr>
 			<tr>
 				<td width="18%" style="font-size: 12px;">End time:</td>
 				<td align="left" style="font-size: 12px;">{A_ENDS}</td>
 			</tr>
-
 			<tr>
 				<td width="18%" style="font-size: 12px;"></td>
 				<td align="left" style="font-size: 12px;"><a href="{SITE_URL}user_menu.php?">Goto My {SITENAME}</a></td>

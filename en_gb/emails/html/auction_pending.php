@@ -6,7 +6,10 @@
 		<td colspan="3" style="font-size: 12px;">Hello <b>{C_NAME}</b>,</td>
 	</tr>
 	<tr>
-		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;">Your item has been successfully listed on {SITENAME}. The item will display instantly in search results.<br>Here are the listing details:</td>
+		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;">Your item has been successfully listed on {SITENAME}. To complete the listing and have your item appear to other users please pay the <a href="{PAY_LINK}"><b>auction listing fee</b></a><br>{PAY_LINK}</td>
+	</tr>
+	<tr>
+		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;">Here are the listing details:</td>
 	</tr>
 	<tr>
 		<td width="9%" rowspan="2"><img border="0" src="{SITE_URL}{A_PICURL}"></td>

@@ -1,13 +1,33 @@
 <table border="0" width="100%">
 	<tr>
-		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, your item has sold!</div></td>
+		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">
+			<!-- IF A_QTY_SOLD -->
+				<!-- IF A_QTY_SOLD eq A_QTY_INITIAL -->
+					Congratulations, all items have been sold!
+				<!-- ELSE -->
+					Congratulations, some items have been sold!
+				<!-- ENDIF -->
+			<!-- ELSE -->
+				We are sorry but your items were not sold.
+			<!-- ENDIF -->
+			</div></td>
 	</tr>
 	<tr>
 		<td colspan="3" style="font-size: 12px;">Hello <b>{S_NAME}</b>,</td>
 	</tr>
 	<tr>
-		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;"><i>Congratulations</i> your item has just sold!
-		Below are the details.</td>
+		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;">
+			<!-- IF A_QTY_SOLD -->
+				<!-- IF A_QTY_SOLD eq A_QTY_INITIAL -->
+					Congratulations, all items have been sold!
+				<!-- ELSE -->
+					Congratulations, some items have been sold!
+				<!-- ENDIF -->
+					Below are the details.
+			<!-- ELSE -->
+				We are sorry but your items were not sold.
+			<!-- ENDIF -->
+	</td>
 	</tr>
 	<tr>
 		<td width="9%" rowspan="2"><img border="0" src="{SITE_URL}{A_PICURL}"></td>
@@ -21,8 +41,18 @@
 				<td align="left" style="font-size: 12px;">{A_CURRENTBID}</td>
 			</tr>
 			<tr>
-				<td width="18%" style="font-size: 12px;">Quantity:</td>
-				<td align="left" style="font-size: 12px;">{A_QTY}</td>
+				<td width="18%" style="font-size: 12px;">Initial quantity:</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_INITIAL}</td>
+			</tr>
+			<tr>
+			<tr>
+				<td width="18%" style="font-size: 12px;">Quantity left for sale:</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_LEFT}</td>
+			</tr>
+			<tr>
+			<tr>
+				<td width="18%" style="font-size: 12px;">Total quantity sold:</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_SOLD}</td>
 			</tr>
 			<tr>
 				<td width="18%" style="font-size: 12px;">End date:</td>

@@ -1,14 +1,14 @@
 <table border="0" width="100%">
 	<tr>
-		<td colspan="2" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, You're now a member of {SITENAME}!</div></td>
+		<td colspan="2" height="35"><div style="font-size: 14px; font-weight: bold;">Your {SITENAME} account has been re-activated.</div></td>
 	</tr>
 	<tr>
 		<td colspan="2" style="font-size: 12px;">Hello <b>{C_NAME}</b>,</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="50" style="font-size: 12px; padding-right: 6px;">
-			This e-mail is to confirm that your registration at {SITENAME} has been approved! <br />
-			You can now login in to your account and start selling and/or bidding.  Thanks for joining us!
+			This e-mail is to confirm that your {SITENAME} account has been re-activated.<br />
+			You can now login in to your account and start selling and/or bidding. See you soon!
 		</td>
 	</tr>
 	<tr>

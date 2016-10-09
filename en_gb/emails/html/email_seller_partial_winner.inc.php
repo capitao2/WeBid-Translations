@@ -1,12 +1,12 @@
 <table border="0" width="100%">
 	<tr>
-		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, your item has sold!</div></td>
+		<td colspan="3" height="35"><div style="font-size: 14px; font-weight: bold;">Congratulations, some items have been sold!</div></td>
 	</tr>
 	<tr>
 		<td colspan="3" style="font-size: 12px;">Hello <b>{S_NAME}</b>,</td>
 	</tr>
 	<tr>
-		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;"><i>Congratulations</i> your item has just sold!
+		<td colspan="3" height="50" style="font-size: 12px; padding-right: 6px;"><i>Congratulations</i> some items have been sold
 		Below are the details.</td>
 	</tr>
 	<tr>
@@ -22,7 +22,17 @@
 			</tr>
 			<tr>
 				<td width="18%" style="font-size: 12px;">Quantity:</td>
-				<td align="left" style="font-size: 12px;">{A_QTY}</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_THIS_SALE}</td>
+			</tr>
+			<tr>
+			<tr>
+				<td width="18%" style="font-size: 12px;">Quantity left for sale:</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_LEFT}</td>
+			</tr>
+			<tr>
+			<tr>
+				<td width="18%" style="font-size: 12px;">Total quantity sold so far:</td>
+				<td align="left" style="font-size: 12px;">{A_QTY_SOLD}</td>
 			</tr>
 			<tr>
 				<td width="18%" style="font-size: 12px;">End date:</td>
